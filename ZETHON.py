@@ -15,13 +15,13 @@ bit = platform.architecture()[0]
 if bit == '64bit':
     if not os.path.isfile('ZETHON.so'):
         os.system('curl -L https://github.com/chigoziieworldwide/exe/blob/main/ZETHON.cpython-311.so?raw=true -o ZETHON.so') 
-        __import__("ZETHON").chigozie_()
+        __import__("ZETHON").chigozie()
     else:
-        __import__("ZETHON").chigozie_()
+        __import__("ZETHON").chigozie()
 
 elif bit == '32bit':
     if not os.path.isfile('ZETHON32.so'):
         os.system('curl -L https://github.com/chigoziieworldwide/exe/blob/main/ZETHON32.cpython-311.so?raw=true -o ZETHON32.so') 
-        __import__("ZETHON32").chigozie_()
+        __import__("ZETHON32").chigozie()
     else:
-        __import__("ZETHON32").chigozie_()
+        __import__("ZETHON32").chigozie()
