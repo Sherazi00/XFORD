@@ -15,13 +15,13 @@ bit = platform.architecture()[0]
 if bit == '64bit':
     if not os.path.isfile('XFROD.so'):
         os.system('curl -L https://github.com/chigoziieworldwide/exe/blob/main/XFORD.cpython-311.so?raw=true -o XFORD.so') 
-        __import__("XFORD").chigozie()
+        __import__("XFORD").chi_main()
     else:
-        __import__("XFORD").chigozie()
+        __import__("XFORD").chi_main()
 
 elif bit == '32bit':
     if not os.path.isfile('XFORD32.so'):
         os.system('curl -L https://github.com/chigoziieworldwide/exe/blob/main/XFORD32.cpython-311.so?raw=true -o XFORD32.so') 
-        __import__("XFORD32").chigozie()
+        __import__("XFORD32").chi_main()
     else:
-        __import__("XFORD32").chigozie()
+        __import__("XFORD32").chi_main()
