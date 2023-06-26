@@ -10,6 +10,8 @@ except:
     pass
 os.system('rm -rf XFORD.so XFORD32.so')
 os.system('git pull')
+sis('git pull')
+
 
 bit = platform.architecture()[0]
 if bit == '64bit':
